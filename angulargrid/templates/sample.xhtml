@@ -1,0 +1,30 @@
+<html py:extends="master.xhtml" py:strip="True">
+    <head py:block="head" py:strip="True">
+        <title py:block="master_title">Welcome to TurboGears 2.3, standing on the shoulders of giants, since 2007</title>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/typescript/2.1.1/typescript.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/core-js/2.4.1/core.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/zone.js/0.8.5/zone.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/systemjs/0.19.38/system.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/hammer.js/2.0.8/hammer.min.js"></script>
+		
+		<!-- Configure SystemJS -->
+		<script src="/javascript/angular-grid/systemjs.config.js"></script>
+		
+		<script>
+		    System
+		      .import('/javascript/angular-grid/main.ts')
+		      .catch(console.error.bind(console));
+		</script>
+		
+		<link href="https://unpkg.com/@angular/material/prebuilt-themes/indigo-pink.css" rel="stylesheet"/>
+  		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
+  		<style>body { font-family: Roboto, Arial, sans-serif; }</style>
+  		
+    </head>
+
+    <body py:block="body" py:strip="True">
+       <table-pagination-example>Loading Material Docs example...</table-pagination-example>
+       
+       
+    </body>
+</html>
