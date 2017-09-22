@@ -6,6 +6,12 @@ __pycache__/
 # C extensions
 *.so
 
+# Default development database
+devdata.db
+
+# Default data directory
+data/*
+
 # Distribution / packaging
 .Python
 env/
@@ -44,6 +50,7 @@ nosetests.xml
 coverage.xml
 *,cover
 .hypothesis/
+.tox
 
 # Translations
 *.mo
