@@ -92,3 +92,4 @@ wtforms==2.1
 xhtml2pdf==0.2b1
 zope.interface==4.4.2
 zope.sqlalchemy==0.7.7
+-e .
