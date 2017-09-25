@@ -55,7 +55,7 @@ class SampleController(BaseController):
             self.values = temp
                 
             
-        print "show : %s total : %s" %(len(self.values), self.total)   
+        #print "show : %s total : %s" %(len(self.values), self.total)   
         reload(sys).setdefaultencoding("utf-8");
         response.headers["Access-Control-Allow-Origin"] = "*"
         response.headers["AAccess-Control-Allow-Methods"] = "GET, POST, PATCH, PUT, DELETE, OPTIONS"

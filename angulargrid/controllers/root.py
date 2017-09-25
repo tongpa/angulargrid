@@ -49,17 +49,16 @@ class RootController(BaseController):
         
     @expose('angulargrid.templates.index')
     def index(self):
-        """Handle the front-page."""
-        
+        """Handle the front-page."""       
 
-        print "request.headers : %s" % request.headers
+        #print "request.headers : %s" % request.headers
         
-        for key in request.headers:
-            print "key : %s \t value : %s" % (key, request.headers[key])
+        #for key in request.headers:
+        #    print "key : %s \t value : %s" % (key, request.headers[key])
         
-        print "--------------------------------"
-        for key in request.environ:
-            print "key : %s \t value : %s" % (key, request.environ[key])
+        #print "--------------------------------"
+        #for key in request.environ:
+        #    print "key : %s \t value : %s" % (key, request.environ[key])
         
         return dict(page='index')
     @expose('angulargrid.templates.about')
