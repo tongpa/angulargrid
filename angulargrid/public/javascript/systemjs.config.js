@@ -18,7 +18,7 @@ System.config({
   map: {
     'main': 'main.js',
 
-    // Angular specific mappings.
+ // Angular specific mappings.
     '@angular/core': 'https://unpkg.com/@angular/core/bundles/core.umd.js',
     '@angular/animations': 'https://unpkg.com/@angular/animations/bundles/animations.umd.js',
     '@angular/common': 'https://unpkg.com/@angular/common/bundles/common.umd.js',
@@ -43,6 +43,7 @@ System.config({
     '@angular/cdk/portal': 'https://unpkg.com/@angular/cdk/bundles/cdk-portal.umd.js',
     '@angular/cdk/rxjs': 'https://unpkg.com/@angular/cdk/bundles/cdk-rxjs.umd.js',
     '@angular/cdk/scrolling': 'https://unpkg.com/@angular/cdk/bundles/cdk-scrolling.umd.js',
+    '@angular/cdk/stepper': 'https://unpkg.com/@angular/cdk/bundles/cdk-stepper.umd.js',
     '@angular/cdk/table': 'https://unpkg.com/@angular/cdk/bundles/cdk-table.umd.js',
 
     // Rxjs mapping

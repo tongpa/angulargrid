@@ -10,7 +10,6 @@ import {
   MdCardModule,
   MdCheckboxModule,
   MdChipsModule,
-  MdCoreModule,
   MdDatepickerModule,
   MdDialogModule,
   MdExpansionModule,
@@ -35,6 +34,7 @@ import {
   MdTabsModule,
   MdToolbarModule,
   MdTooltipModule,
+  MdStepperModule,
 } from '@angular/material';
 import {TablePaginationExample} from './table-pagination-example.ts';
 import {HttpModule} from '@angular/http';
@@ -49,7 +49,7 @@ import {CdkTableModule} from '@angular/cdk/table';
     MdCardModule,
     MdCheckboxModule,
     MdChipsModule,
-    MdCoreModule,
+    MdStepperModule,
     MdDatepickerModule,
     MdDialogModule,
     MdExpansionModule,
@@ -98,3 +98,7 @@ export class PlunkerAppModule {}
 
 platformBrowserDynamic().bootstrapModule(PlunkerAppModule);
 
+
+/**  Copyright 2017 Google Inc. All Rights Reserved.
+    Use of this source code is governed by an MIT-style license that
+    can be found in the LICENSE file at http://angular.io/license */

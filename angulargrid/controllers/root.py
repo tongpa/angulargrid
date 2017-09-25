@@ -59,17 +59,10 @@ class RootController(BaseController):
         #print "--------------------------------"
         #for key in request.environ:
         #    print "key : %s \t value : %s" % (key, request.environ[key])
-        
-        return dict(page='index')
-    @expose('angulargrid.templates.about')
-    def about(self):
-        """Handle the 'about' page."""
-        return dict(page='about')
-
-    @expose('angulargrid.templates.environ')
-    def environ(self):
-        """This method showcases TG's access to the wsgi environment."""
-        return dict(page='environ', environment=request.environ)
+        #http://192.168.1.73:8080/sample/samplepaging
+        redirect('/sample/samplepaging' )
+        #return dict(page='index')
+    
 
     @expose('angulargrid.templates.data')
     @expose('json')
