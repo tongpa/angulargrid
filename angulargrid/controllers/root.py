@@ -44,8 +44,7 @@ class RootController(BaseController):
     
     @expose(content_type='text/plain')
     def exenv(self):
-        print "HTTP_X_FORWARDED_FOR : %s" %(request.environ.get('HTTP_X_FORWARDED_FOR',  request.environ.get('REMOTE_ADDR')))
-           
+        #print "HTTP_X_FORWARDED_FOR : %s" %(request.environ.get('HTTP_X_FORWARDED_FOR',  request.environ.get('REMOTE_ADDR')))
         return 'Past Greetings\n' + '\n'.join(['%s - %s' % (key, request.environ[key] ) for key in request.environ])
         
     @expose('angulargrid.templates.index')
