@@ -32,15 +32,15 @@ class SampleController(BaseController):
     def angular_data(self, *args, **kw):
         #print kw
         #print args
-        print len(request.body)
-        print type(request.body)
+        #print len(request.body)
+        #print type(request.body)
         self.values = []
         self.total=0
         NAMES = ['maroon', 'red', 'orange', 'yellow', 'olive', 'green', 'purple','fuchsia', 'lime', 'teal', 'aqua', 'blue', 'navy', 'black', 'gray'];
   
         if len(request.body) >0:
             self.questionGroup =  json.loads(request.body, encoding=request.charset )
-            print self.questionGroup
+            #print self.questionGroup
             
             self.values,self.total =  self.authenService.getUserBySearch(page=self.questionGroup.get('pageIndex'), page_size=self.questionGroup.get('pageSize'))
             temp = []
