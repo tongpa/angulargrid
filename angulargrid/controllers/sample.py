@@ -56,7 +56,7 @@ class SampleController(BaseController):
                 
             
         #print "show : %s total : %s" %(len(self.values), self.total)   
-        reload(sys).setdefaultencoding("utf-8");
+        #reload(sys).setdefaultencoding("utf-8");
         response.headers["Access-Control-Allow-Origin"] = "*"
         response.headers["AAccess-Control-Allow-Methods"] = "GET, POST, PATCH, PUT, DELETE, OPTIONS"
         response.headers["Access-Control-Allow-Headers"] = "Origin, Content-Type, X-Auth-Token"
