@@ -87,7 +87,7 @@ webhelpers==1.3
 WebHelpers2==2.0
 WebOb==1.7.3
 WebTest==1.4.3
-werkzeug==0.12.2
+werkzeug==0.15.3
 wtforms==2.1
 xhtml2pdf==0.2b1
 zope.interface==4.4.2
