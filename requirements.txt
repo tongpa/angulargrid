@@ -81,7 +81,7 @@ tw2.sqla==2.1.0
 tzlocal==1.4
 uritemplate==3.0.0
 urllib3==1.22
-waitress==1.0.2
+waitress==2.1.1
 webencodings==0.5.1
 webhelpers==1.3
 WebHelpers2==2.0
