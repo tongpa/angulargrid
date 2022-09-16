@@ -28,7 +28,7 @@ idna==2.6
 itsdangerous==0.24
 jinja2==2.9.6
 Kajiki==0.7.0
-Mako==1.0.7
+Mako==1.2.2
 MarkupSafe==1.0
 nine==1.0.0
 oauth2==1.9.0.post1
